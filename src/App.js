@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import Contact from './Components/Contact'
 
 function App() {
