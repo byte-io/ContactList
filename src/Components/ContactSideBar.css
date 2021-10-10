@@ -1,0 +1,14 @@
+.contactSideBar {
+    height: 100%;
+    width: 50px;
+    background-color: coral;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+}
+
+.buttonIcon {
+    background-color:coral;
+    border: 0;
+    margin: 20px 0
+}
