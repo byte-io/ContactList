@@ -1,0 +1,119 @@
+.contactList {
+    flex: 40%;
+    background-color: white;
+}
+.contactHeader {
+    margin: 15px 100px 15px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    background-color:white;
+}
+
+.contactIcon {
+    margin: 20px
+}
+.mainLine {
+     margin-bottom: 0 
+}
+
+.subLine {
+    /* padding-left: 0; */
+    margin-left: 0;
+}
+.searchBar {
+    margin: 15px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    padding: 0 20px 0 0;
+    
+}
+
+.searchBox {
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 50px;
+    width: 50%;
+    background-color: #f2f2f2;
+    border: 0;
+}
+/* .searchButton {
+    padding: 10px;
+    margin: 0 150px;
+    border-radius: 5px;
+} */
+.contactListHeader {
+    margin: 15px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:#f2f2f2;
+    padding: 0 20px ;
+}
+
+.plusButton {
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: #f2f2f2;
+    border : 0
+}
+
+p {
+    margin: 0 70px;
+    color:rgb(121, 121, 121)
+}
+
+.contactListItem {
+    /* background-color: #f2f2f2; */
+    background-color: white;
+    border: 4px solid white;
+    /* border: 2px solid #e54065; */
+    /* border-radius: 5px; */
+    padding: 10px;
+    margin: 15px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contactListItem:focus {
+    background-color: #f2f2f2;
+}
+.contactListItem:hover{
+    border: 4px solid #f2f2f2;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #e54065;
+    border-radius: 100%;
+    align-items: center;
+    margin: 20px ;
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.fullName {
+    
+    font-weight: bold;
+    font-size:x-large
+}
+
+.fullNameContainer {
+    margin: 10px;
+}
+
+.email {
+   color: rgb(121, 121, 121)  
+}
+
+.company {
+    margin: 30px 30px 30px 60px;
+    font-weight: bold;
+    font-size:medium
+}
