@@ -1,0 +1,56 @@
+.contactBody {
+    flex: 40%;
+    background-color: white;
+}
+
+.contactDetail {
+    margin: 150px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+
+.contactDetailTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactBodyAvatar {
+    width: 80px;
+    height: 80px;
+    background-color: #e54065;
+    border-radius: 100%;
+    align-items: center;
+    margin: 20px ;
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-weight: bold;
+    font-size:xx-large;
+}
+.contactName {
+    margin: 0
+}
+.contactDetailBottom {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px
+}
+.eachDetail {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 
+}
+.eachDetailFirst {
+    font-size: large;
+    color: rgb(121, 121, 121);
+    flex: 35%;
+    width: 113px
+}
+.eachDetailLast {
+    flex: 65%;
+    color: black;
+    font-weight: bold;
+}
